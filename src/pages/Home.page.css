@@ -1,0 +1,11 @@
+[self] {
+    color: #22fa42;
+
+    h1{
+        margin: 10px 0 0 0;
+    }
+    h3{
+        margin: 5px 0 0 0;
+        font-style: italic;
+    }
+}

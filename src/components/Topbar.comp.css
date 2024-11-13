@@ -1,0 +1,81 @@
+[self]{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 2;
+    display: flex;
+    color: rgb(3, 248, 3);
+    background-color: #1f1f1f;
+    align-items: center;
+    padding: 5px;
+    --home: brightness(0.65) sepia(4) saturate(10) hue-rotate(70deg);
+    --projects: brightness(0.75) sepia(4) saturate(10) hue-rotate(5deg);
+    --games: brightness(69.2%) sepia(4) saturate(10) hue-rotate(120deg);
+    --theme: var(--home);
+}
+
+[self][pagen="home"]{
+    --theme: var(--home);
+}
+
+[self][pagen="projects"]{
+    --theme: var(--projects);
+}
+
+[self][pagen="games"]{
+    --theme: var(--games);
+}
+
+[self][pagen] img {
+    filter: var(--theme);
+}
+
+[self] [anc] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+[self] [underline] {
+    height: 2px;
+    width: 0%;
+    margin-right: 5px;
+    margin-top: 0;
+    transition: width 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+[self] [m] {
+    a {
+        text-decoration: none;
+        font-size: 27px;
+        margin-bottom: 0px;
+        height: 35px;
+        color: #ffffff;
+    }
+    [underline] {
+        background-color: #c9c9c9;
+    }
+}
+
+[self] [m="active"] {
+    a {
+        filter: var(--theme);
+    }
+    [underline] {
+        filter: var(--theme);
+    }
+}
+
+[self] [m]:hover {
+    [underline] {
+        width: 70%;
+    }
+}
+
+[self] [m=""] a {
+    color: #c9c9c9;
+}

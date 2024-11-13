@@ -1,0 +1,50 @@
+[self] [xtify-passive] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 1000px;
+
+    i {
+        width: 100%;
+        text-align: right;
+    }
+
+    h1{
+        span {
+            background: linear-gradient(to right, #777777aa 0%, #555555aa 47.25%, #555555aa 52.25%, #777777aa 100%);
+            animation: loading 2s ease-in-out infinite;
+            color: transparent;
+            margin-left: 15px;
+            background-size: 5000px 650px;
+        }
+    }
+
+    p {
+        span {
+            background: linear-gradient(to right, #777777aa 0%, #555555aa 47.25%, #555555aa 52.25%, #777777aa 100%);
+            animation: loading 2s ease-in-out infinite;
+            color: transparent;
+            margin-left: 15px;
+            background-size: 5000px 650px;
+        }
+
+        line-break: anywhere;
+    }
+}
+
+@keyframes loading {
+    0% {
+        background-position-x: 100%;
+    }
+
+    50% {
+        background-position-x: -0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+
+}

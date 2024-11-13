@@ -1,0 +1,8 @@
+[self] {
+    h1{
+        width: min-content;
+        color: #00f4e6;
+        text-align: center;
+        font-size: 40px;
+    }
+}

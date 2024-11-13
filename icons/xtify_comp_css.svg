@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs/>
+  <path fill="#42a5f5" d="M 21.247 4 L 13.356 22.36 L 12.647 24 L 9.168 25.75 L 6.996 26.861 L 4.551 28 L 0.959 24.05 L 3.562 18 L 5.561 18 L 4.389 20.85 L 6.592 23.27 L 7.052 23.01 L 10.884 20.85 L 11.245 20.02 L 12.976 16 L 4.421 16 L 6.041 12.24 L 6.145 12 L 14.696 12 L 16.417 8 L 7.863 8 L 9.582 4 L 21.247 4 Z" style=""/>
+  <g transform="matrix(0.08414, 0, 0, 0.08414, 2.711768, -9.041332)" style="">
+    <path d="M 141.091 154.104 L 200 154.104 L 61.621 438.531 L 8.937 438.87 L 141.091 154.104 Z" style="filter: none; fill: rgb(2, 136, 209); visibility: hidden;"/>
+    <polygon style="filter: none; fill: rgb(2, 136, 209); visibility: hidden;" points="18.581 154.104 67.87 269.902 93.751 210.096 77.496 154.179"/>
+    <path transform="matrix(1, 0, 0, 1, 153.915497, -50.241364)" style="fill: rgb(51, 51, 51); text-transform: capitalize;"/>
+  </g>
+  <polygon style="fill: rgb(66, 165, 245);" points="13.091 27.32 15.672 21.478 25.675 16.856 25.747 14.581 20.637 9.986 22.511 6.06 29.527 12.916 29.046 19.58"/>
+</svg>
